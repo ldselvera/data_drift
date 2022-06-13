@@ -2,9 +2,9 @@
 
 Data drift (covariate shift) is a change in the statistical distribution of production data from the baseline data used to train or build the model. Data from real-time serving can drift from the baseline data due to:
 
-•	Changes in the real world,
-•	Training data not being a representation of the population,
-•	Data quality issues like outliers in the dataset.
+*	Changes in the real world
+* Training data not being a representation of the population
+*	Data quality issues like outliers in the dataset
 
 For example, if you built a model with temperature data collected from a sensor in Celsius degrees, but the unit changed to Fahrenheit – it means there’s been a change in your input data, so the data has drifted.
 
