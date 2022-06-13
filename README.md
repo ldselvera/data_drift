@@ -6,14 +6,6 @@ Data drift (covariate shift) is a change in the statistical distribution of prod
 * Training data not being a representation of the population
 *	Data quality issues like outliers in the dataset
 
-For example, if you built a model with temperature data collected from a sensor in Celsius degrees, but the unit changed to Fahrenheit – it means there’s been a change in your input data, so the data has drifted.
-
-## Monitoring data drift in production
-
-The best approach to handling data drift is to continuously monitor your data with advanced MLOps tools instead of using traditional rule-based methods. Rule based methods, like calculating the data range or comparing data attributes to detect alien values, can be time-consuming and are susceptible to error. 
-
-The best approach to handling data drift is to continuously monitor your data with advanced MLOps tools instead of using traditional rule-based methods. Rule based methods, like calculating the data range or comparing data attributes to detect alien values, can be time-consuming and are susceptible to error. 
-
 ## Concept drift
 
 Concept drift is a phenomenon where the statistical properties of the target variable you’re trying to predict changes over time. This means that the concept has changed but the model doesn’t know about the change. 
@@ -24,7 +16,7 @@ In simple terms, the concept of sentiment analysis has drifted. Unfortunately, y
 
 ## Data drift vs concept drift
 
-It’s an obvious fact that data is generated at every moment in the world. As data is collected from multiple sources, data itself is changing. This change can be due to the dynamic nature of the data, or it can be caused by changes in the real world.
+As data is collected from multiple sources, data itself is changing. This change can be due to the dynamic nature of the data, or it can be caused by changes in the real world.
 
 If the input distribution changes but the true labels don’t (the probability of the model’s input changes but the probability of the target class given the probability of the model input doesn’t change), then this kind of change is considered as data drift.
 
